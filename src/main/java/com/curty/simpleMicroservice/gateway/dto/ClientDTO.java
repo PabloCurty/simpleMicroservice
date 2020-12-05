@@ -14,7 +14,6 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 public class ClientDTO {
 
-    @NotNull(message = "Id is required")
     private Long id;
 
     @NotEmpty(message = "Name is required")
